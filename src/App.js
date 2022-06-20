@@ -1,6 +1,5 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Button } from "react-bootstrap";
 import { Routes, Route, Link } from "react-router-dom";
 import Main from "./Main";
 import CreateIdol from "./CreateIdol";
