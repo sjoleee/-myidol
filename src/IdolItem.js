@@ -10,4 +10,4 @@ function IdolItem() {
   );
 }
 
-export default IdolItem();
+export default IdolItem;

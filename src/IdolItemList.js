@@ -2,7 +2,7 @@ import React from "react";
 import IdolItem from "./IdolItem";
 
 function IdolItemList() {
-  return <div>{IdolItem}</div>;
+  return <IdolItem />;
 }
 
-export default IdolItemList();
+export default IdolItemList;

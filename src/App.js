@@ -10,9 +10,9 @@ function App() {
     <div className="App">
       <Link to="/">홈버튼</Link>
       <Routes>
-        <Route path="/" element={Main} />
-        <Route path="/create" element={CreateIdol} />
-        <Route path="/result" element={Result} />
+        <Route path="/" element={<Main />} />
+        <Route path="/create" element={<CreateIdol />} />
+        <Route path="/result" element={<Result />} />
       </Routes>
     </div>
   );
