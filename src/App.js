@@ -1,15 +1,20 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Button, Navbar, Container, Nav } from "react-bootstrap";
+import { Button } from "react-bootstrap";
+import { Routes, Route, Link } from "react-router-dom";
+import Main from "./Main";
+import Create from "./Create";
+import Result from "./Result";
 
 function App() {
   return (
     <div className="App">
-      <div>홈버튼</div>
-      <div>
-        <h2>나만의 아이돌을 만들어보자!</h2>
-        <Button variant="primary">START</Button>{" "}
-      </div>
+      <Link to="/">홈버튼</Link>
+      <Routes>
+        <Route path="/" element={Main} />
+        <Route path="/create" element={Create} />
+        <Route path="/result" element={Result} />
+      </Routes>
     </div>
   );
 }
