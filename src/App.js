@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Button } from "react-bootstrap";
 import { Routes, Route, Link } from "react-router-dom";
 import Main from "./Main";
-import Create from "./Create";
+import CreateIdol from "./CreateIdol";
 import Result from "./Result";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <Link to="/">홈버튼</Link>
       <Routes>
         <Route path="/" element={Main} />
-        <Route path="/create" element={Create} />
+        <Route path="/create" element={CreateIdol} />
         <Route path="/result" element={Result} />
       </Routes>
     </div>

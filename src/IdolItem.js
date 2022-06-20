@@ -1,6 +1,6 @@
 import React from "react";
 
-function Idol() {
+function IdolItem() {
   return (
     <div>
       <div>사진</div>
@@ -10,4 +10,4 @@ function Idol() {
   );
 }
 
-export default Idol();
+export default IdolItem();
