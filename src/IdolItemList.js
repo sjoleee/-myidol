@@ -7,8 +7,8 @@ function IdolItemList() {
   const [idol, setIdol] = useState(Data);
   return (
     <div className="contaniner">
-      {idol.map((params, idx) => {
-        return <IdolItem params={params} idx={idx} idol={idol} key={idx} />;
+      {idol.map((params) => {
+        return <IdolItem params={params} />;
       })}
     </div>
   );
