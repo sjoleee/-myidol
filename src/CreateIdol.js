@@ -10,7 +10,7 @@ function CreateIdol() {
       <input placeholder="원하는 아이돌을 검색하세요"></input>
       <IdolItemList />
       <div>
-        {/* <SelectedIdolItemList /> */}
+        <SelectedIdolItemList />
         <Link to="/result">완성</Link>
       </div>
     </div>
